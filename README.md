@@ -109,7 +109,9 @@ In the **HUMAN RESOURCES** sheet, I used the formula `=IF(A2="",IF($L2<>"2000",I
 
 Considering the results, the first four columns should've been dropped(But I kept it).
 
-In the workbook **Final Analysis_Ashutosh Ranjan**, the **Processed_Dataset** sheet was created by combining the data using the `VLOOKUP` function. This sheet, along with the **DICTIONARY** sheet, was utilized for univariate and bivariate analysis.
+In the workbook **Final Analysis_Ashutosh Ranjan**, the **Processed_Dataset** sheet was created by combining the data using the `VLOOKUP` function.
+`=ARRAYFORMULA(VLOOKUP(A2,IMPORTRANGE("https://docs.google.com/spreadsheets/d/1A_P1bfBREmA7JOWyKv-RbXbZLXN80F8mJRT1h9WAfwM/edit#gid=1931367683","ENERGY!$F$1:$H$2692"),{2,3},0))`
+This sheet, along with the **DICTIONARY** sheet, was utilized for univariate and bivariate analysis.
 
 ### UNIVARIATE & BIVARIATE ANALYSIS
 
