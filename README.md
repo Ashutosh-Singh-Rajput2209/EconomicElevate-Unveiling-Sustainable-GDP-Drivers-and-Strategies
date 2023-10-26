@@ -90,7 +90,7 @@ The percentages of missing values before and after imputation were as follows:
 - **Energy Usage**: 33.67% before and 19.32% after imputation.
 - **CO2 Emissions**: 21.03% before and 5.80% after imputation.
 
-Despite a 19% rate of missing values in **Energy Usage** post-imputation, the decision was made to retain the column, considering the exclusion of rows with missing values during bivariate analysis using "=CORREL()".
+Despite a 19% rate of missing values in **Energy Usage** post-imputation, the decision was made to retain the column, considering the exclusion of rows with missing values during bivariate analysis using `=CORREL()`.
 
 Here is a more concise version for handling missing values in the **HUMAN RESOURCES**, **TOURISM**, and **BUSINESS** sheets:
 
@@ -132,7 +132,7 @@ Upon the deletion of the #N/A values, the percentages of missing values were as 
 - **CO2Emission/Capita**: 25.98%
 - **Population**: 0
 
-In the bivariate analysis, I calculated correlation coefficients using the `CORREL` function in the "Bivariate01" to "Bivariate05" sheets, enabling the visualization of data trends through scatter plots. Additionally, I conducted comprehensive univariate analyses, obtaining valuable insights for the final conclusion presented in the "Sheet 18."
+In the bivariate analysis, I calculated correlation coefficients using the `=CORREL()` function in the "Bivariate01" to "Bivariate05" sheets, enabling the visualization of data trends through scatter plots. Additionally, I conducted comprehensive univariate analyses, obtaining valuable insights for the final conclusion presented in the "Sheet 18."
 
 Insights gained from the analyses indicated significant correlation percentages with GDP/Capita, highlighting crucial factors for sustainable economic growth:
 
