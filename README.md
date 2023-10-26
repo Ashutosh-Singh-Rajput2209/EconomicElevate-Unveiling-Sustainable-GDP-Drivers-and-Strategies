@@ -164,3 +164,6 @@ Insights gained from the analyses indicated significant correlation percentages 
   - Ease of Business: -57.21%
 
 To foster improved GDP/Capita, enhancing factors such as Health Expenditure per Capita, Internet Usage, Ease of Business, Life Expectancy Male and Female, Population Over 65, Population 15-64, Mobile Phone Usage, Urban Population, Outbound and Inbound Tourism is recommended. Simultaneously, reducing factors including Infant Mortality Rate, Birth Rate, and Population below 14 is vital for sustained economic growth.
+
+![image](https://github.com/Ashutosh-Singh-Rajput2209/EconomicElevate-Unveiling-Sustainable-GDP-Drivers-and-Strategies/assets/113265828/98ba9d1c-8a2f-41dd-b15f-1705c1ba09fd)
+
